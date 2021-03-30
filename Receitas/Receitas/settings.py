@@ -118,8 +118,13 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
+# Indica o caminho absoluto, onde o collectstatic coletará os arquivos estáticos.
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+# Referência a arquivos estáticos localizados no STATIC_ROOT.
 STATIC_URL = '/static/'
+# Define os locais adicionais que o aplicativo staticfiles percorrerá se o localizador
+# FileSystemFinder estiver ativado, por exemplo. Se você usar o comando de gerenciamento 
+# collectstatic ou findstatic ou usar a exibição de arquivo estático.
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'Receitas/static')
 ]
