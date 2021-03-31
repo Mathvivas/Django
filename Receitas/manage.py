@@ -3,6 +3,8 @@
 import os
 import sys
 
+#### python manage.py help
+#### http://localhost:8000/
 
 def main():
     """Run administrative tasks."""
