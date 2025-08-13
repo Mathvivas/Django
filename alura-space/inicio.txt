@@ -10,4 +10,16 @@
 - python manage.py startapp galeria (em um projeto, temos diversos apps)
 - Adicionar o app galeria no settings
 - Adicionar a pasta templates no settings
+
 - Pegar os arquivos estáticos: python manage.py collectstatic
+"""
+STATIC_ROOT: Indica o caminho absoluto, onde o collectstatic coletará os arquivos 
+estáticos
+
+STATIC_URL: Referência a arquivos estáticos localizados no STATIC_ROOT
+
+STATICFILES_DIRS: Essa configuração define os locais adicionais que o aplicativo 
+Staticfiles percorrerá se o localizador FileSystemFinder estiver ativado. Por exemplo, 
+se você usar o comando de gerenciamento collectstatic ou findstatic, ou ainda a exibição 
+de arquivo estático.
+"""
