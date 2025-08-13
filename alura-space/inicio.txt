@@ -10,3 +10,4 @@
 - python manage.py startapp galeria (em um projeto, temos diversos apps)
 - Adicionar o app galeria no settings
 - Adicionar a pasta templates no settings
+- Pegar os arquivos estáticos: python manage.py collectstatic
