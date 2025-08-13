@@ -7,3 +7,6 @@
 - python manage.py runserver
 - pip install python-dotenv
 - pip freeze > requirements.txt
+- python manage.py startapp galeria (em um projeto, temos diversos apps)
+- Adicionar o app galeria no settings
+- Adicionar a pasta templates no settings
