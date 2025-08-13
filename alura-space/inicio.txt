@@ -5,3 +5,5 @@
 - django-admin help
 - django-admin startproject setup .
 - python manage.py runserver
+- pip install python-dotenv
+- pip freeze > requirements.txt
