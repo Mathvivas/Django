@@ -7,6 +7,7 @@
 - Iniciar o servidor: python manage.py runserver
 - pip install djangorestframework
 - pip install markdown
+- pip install python-dotenv
 - pip freeze > requirements.txt
 
 **Após a criação dos modelos, fazer as migrações
