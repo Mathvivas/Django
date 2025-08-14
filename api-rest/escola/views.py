@@ -3,6 +3,7 @@ from escola.serializers import EstudanteSerializer, CursoSerializer, MatriculaSe
 from escola.serializers import ListaMatriculasCursoSerializer, ListaMatriculasEstudanteSerializer
 from rest_framework import viewsets, generics
 
+# viewsets são usados para implementar CRUD
 class EstudanteViewSet(viewsets.ModelViewSet):
     queryset = Estudante.objects.all()
     serializer_class = EstudanteSerializer
@@ -15,6 +16,7 @@ class MatriculaViewSet(viewsets.ModelViewSet):
     queryset = Matricula.objects.all()
     serializer_class = MatriculaSerializer
 
+# generics são usados para implementar visualizações
 class ListaMatriculaEstudante(generics.ListAPIView):
     def get_queryset(self):
         # self.kwargs pega todas as infos que são passadas na url
