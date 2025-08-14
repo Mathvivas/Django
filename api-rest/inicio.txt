@@ -4,3 +4,4 @@
 - django-admin startproject setup .
 - python manage.py startapp escola
 - setup/settings.py --> Adicionar o nome do app no INSTALLED_APPS
+- Iniciar o servidor: python manage.py runserver
