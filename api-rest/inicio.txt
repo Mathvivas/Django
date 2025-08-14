@@ -1,0 +1,6 @@
+- virtualenv venv
+- source venv/bin/activate
+- pip install Django
+- django-admin startproject setup .
+- python manage.py startapp escola
+- setup/settings.py --> Adicionar o nome do app no INSTALLED_APPS
