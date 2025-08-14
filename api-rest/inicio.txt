@@ -8,3 +8,7 @@
 - pip install djangorestframework
 - pip install markdown
 - pip freeze > requirements.txt
+
+**Após a criação dos modelos, fazer as migrações
+- python manage.py makemigrations
+- python manage.py migrate
