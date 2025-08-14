@@ -1,4 +1,4 @@
-- Gerar o ambiente virtual: virtual venv
+- Gerar o ambiente virtual: virtualenv venv
 - Ativar o ambiente virtual: source venv/bin/activate
 - Instalar o Django: pip install Django
 - pip freeze > requirements.txt (boa prática)
