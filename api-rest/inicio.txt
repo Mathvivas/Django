@@ -13,3 +13,7 @@
 **Após a criação dos modelos, fazer as migrações
 - python manage.py makemigrations
 - python manage.py migrate
+
+
+** Criação de um super usuário
+- python manage.py createsuperuser
