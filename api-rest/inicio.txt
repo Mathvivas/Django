@@ -17,3 +17,8 @@
 
 ** Criação de um super usuário
 - python manage.py createsuperuser
+
+
+
+** Para instalar todas as dependências do arquivo
+pip install -r requirements.txt
